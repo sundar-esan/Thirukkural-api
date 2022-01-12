@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirukkural</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Thiru">THIRUKKURAL</div>
+    <br>
+    <marquee width="100%">ENTER THE NUMBER,FROM 1 TO 1330, THEN 
+        CLICK THE SEARCH BUTTON.
+         </marquee>
+        <br>
+        <p>In this webpage you can able to get the Thirukkural in Tamil and English,
+            according to the specified number.
+            
+        </p>
+        <p>As well as the  explanation in Tamil & English.</p>
+        <div id="box">
+        <label for >Enter here:</label>
+    <input type="number" id="randomNumber"
+     placeholder="Number 1 to 1330">
+    
+     <button onclick="getdata()">Search</button>
+     <br>
+     
+    <div class="tamilkural">
+    <div id="line1"></div>
+    <div id="line2"></div>
+    </div>
+
+    <div class="tamilmeaning"> Meaning in Tamil:<br><br>
+    <div id="tamilexp"></div>
+    </div>
+
+    <div class="englishkural">
+    <div id="english"></div>
+    </div>
+
+    <div class="englishmeaning" > Meaning in English:<br><br>
+    <div id="englishexp"></div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.Thiru{
+    font-size: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    
+  
+}
+
+body{
+    background-color: violet;
+}
+
+.tamilkural{
+    
+    border:1px solid white;
+    text-align:center;
+    margin-top: 25px;
+    font-weight: bolder;
+    height:fit-content;
+    width:fit-content;
+    background-color: burlywood;
+    font-size:30px;
+    
+    
+}
+.englishkural{
+    border:1px solid white;
+    text-align:center;
+    margin-top: 25px;
+    font-weight: bolder;
+    height:fit-content;
+    width:fit-content;
+    background-color: burlywood;
+    font-size:30px;
+    
+}
+
+marquee{
+    font-size: 25px;
+    background-color: tomato;
+
+}
+
+button{
+    background-color: green;
+    border-radius: 5px;
+    font-size: 30px;
+    color:whitesmoke;
+}
+input{
+    font-size: 30px;
+}
+
+label{
+    font-size: 30px;
+}
+#box{
+    border:1px dotted black;
+    padding:40px;
+    background-color: lightblue;
+    
+} 
+.tamilmeaning{
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+
+.englishmeaning{
+    font-size:25px ;
+    margin-top: 10px;
+}
